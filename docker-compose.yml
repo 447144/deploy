@@ -34,7 +34,7 @@ services:
     image: leishi1313/aurora-admin-frontend:latest
     restart: always
     ports:
-      - 25232:80
+      - 21:80
     depends_on:
       - backend
   
